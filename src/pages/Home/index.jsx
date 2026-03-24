@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import {
   Wrapper,
   Container,
@@ -18,6 +20,25 @@ import {
 
 
 function Home() {
+
+  const [contador, setContador] = useState(0)
+
+  const decreaseButton = () => {
+    if (contador > 0) {
+      setContador(contador - 1)
+    }
+  }
+
+  const increaseButton = () => {
+    if (contador < 1000) {
+      setContador(contador + 1)
+    }
+  }
+
+  const resetButton = () => {
+    setContador(0)
+  }
+
   return (
     <>
       <Wrapper>
@@ -34,15 +55,15 @@ function Home() {
             </Goals>
           </Header>
 
-          <Number>0</Number>
+          <Number>{contador}</Number>
 
           <PrimaryButtons>
-            <ButtonDecrease>Decrease -</ButtonDecrease>
-            <ButtonIncrease>Increase +</ButtonIncrease>
+            <ButtonDecrease onClick={decreaseButton}>Decrease -</ButtonDecrease>
+            <ButtonIncrease onClick={increaseButton}>Increase +</ButtonIncrease>
           </PrimaryButtons>
 
           <SecoundaryButton>
-            <ButtonReset>RESET COUNTER</ButtonReset>
+            <ButtonReset onClick={resetButton}>RESET COUNTER</ButtonReset>
           </SecoundaryButton>
         </Container>
       </Wrapper>

@@ -83,6 +83,15 @@ border: none;
 outline: none;
 background-color: #e5e5e5d3;
 cursor: pointer;
+
+&:hover {
+  opacity: .8;
+}
+
+&:active {
+  opacity: .6;
+}
+
 `
 
 export const ButtonIncrease = styled.button`
@@ -93,7 +102,18 @@ outline: none;
 background-color: #252525;
 color: #fff;
 cursor: pointer;
+
+&:hover {
+  opacity: .8;
+}
+
+&:active {
+  opacity: .6;
+}
+
 `
+
+
 export const SecoundaryButton = styled.div`
 padding: 20px;
 `
