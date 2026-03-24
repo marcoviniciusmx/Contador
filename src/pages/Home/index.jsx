@@ -5,11 +5,8 @@ import {
   Container,
   Header,
   AppSection,
-  Goals,
   Title,
   Subtitle,
-  DailyGoal,
-  CountGoal,
   Number,
   PrimaryButtons,
   ButtonDecrease,
@@ -48,11 +45,6 @@ function Home() {
               <Subtitle>Session Active</Subtitle>
               <Title>Counter App</Title>
             </AppSection>
-
-            <Goals>
-              <DailyGoal>Daily Goal</DailyGoal>
-              <CountGoal>0/1000</CountGoal>
-            </Goals>
           </Header>
 
           <Number>{contador}</Number>

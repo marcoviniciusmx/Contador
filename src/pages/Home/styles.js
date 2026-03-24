@@ -29,19 +29,13 @@ display: flex;
 gap: 100px;
 justify-content: center;
 align-items: center;
+text-align: center;
 `
 
 export const AppSection = styled.div`
 display: flex;
 flex-direction: column;
 gap: 2px;
-`
-
-
-export const Goals = styled.div`
-display: flex;
-flex-direction: column;
-gap: 10px;
 `
 
 
@@ -52,16 +46,6 @@ font-size: 1.5rem;
 export const Subtitle = styled.h3`
 font-size: 0.7rem;
 color: rgba(0, 0, 0, 0.52);
-`
-
-export const DailyGoal = styled.p`
-font-size: .8rem;
-color: rgba(0, 0, 0, 0.52);
-`
-
-export const CountGoal = styled.p`
-font-size: .9rem;
-color: rgb(51, 96, 221);
 `
 
 export const Number = styled.p`
