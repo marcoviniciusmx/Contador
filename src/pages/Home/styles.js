@@ -60,57 +60,6 @@ gap: 10px;
 margin-bottom: 10px;
 `
 
-export const ButtonDecrease = styled.button`
-padding: 10px 12px;
-border-radius: 10px;
-border: none;
-outline: none;
-background-color: #e5e5e5d3;
-cursor: pointer;
-
-&:hover {
-  opacity: .8;
-}
-
-&:active {
-  opacity: .6;
-}
-
-`
-
-export const ButtonIncrease = styled.button`
-padding: 10px;
-border-radius: 10px;
-border: none;
-outline: none;
-background-color: #252525;
-color: #fff;
-cursor: pointer;
-
-&:hover {
-  opacity: .8;
-}
-
-&:active {
-  opacity: .6;
-}
-
-`
-
-
 export const SecoundaryButton = styled.div`
 padding: 20px;
-`
-
-export const ButtonReset = styled.button`
-font-size: .5rem;
-word-spacing: .2rem;
-letter-spacing: .2rem;
-cursor: pointer;
-border: none;
-outline: none;
-background: transparent;
-appearance: none;
--webkit-appearance: none;
-padding: 0;
 `

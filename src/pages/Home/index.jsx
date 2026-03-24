@@ -9,11 +9,11 @@ import {
   Subtitle,
   Number,
   PrimaryButtons,
-  ButtonDecrease,
-  ButtonIncrease,
   SecoundaryButton,
-  ButtonReset
 } from './styles'
+import Button from '../../components/ButtonDecrease'
+import IncreaseButton from '../../components/ButtonIncrease'
+import ResetButton from '../../components/ButtonReset'
 
 
 function Home() {
@@ -50,12 +50,12 @@ function Home() {
           <Number>{contador}</Number>
 
           <PrimaryButtons>
-            <ButtonDecrease onClick={decreaseButton}>Decrease -</ButtonDecrease>
-            <ButtonIncrease onClick={increaseButton}>Increase +</ButtonIncrease>
+            <Button onClick={decreaseButton}>Decrease -</Button>
+            <IncreaseButton type='button' onClick={increaseButton}>Increase +</IncreaseButton>
           </PrimaryButtons>
 
           <SecoundaryButton>
-            <ButtonReset onClick={resetButton}>RESET COUNTER</ButtonReset>
+            <ResetButton type='button' onClick={resetButton}>RESET COUNTER</ResetButton>
           </SecoundaryButton>
         </Container>
       </Wrapper>
