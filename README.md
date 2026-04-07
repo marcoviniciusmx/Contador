@@ -8,7 +8,7 @@
   <a href="#-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-features">Funcionalidades</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-project-structure">Estrutura</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-project-structure">Estrutura</a>
 </p>
 
 <br>
