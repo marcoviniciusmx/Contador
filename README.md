@@ -9,9 +9,11 @@
   <a href="#-features">Funcionalidades</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#-project-structure">Estrutura</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-layout-and-design-decisions">Layout e decisões de design</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#-getting-started">Como executar</a>
 </p>
+
+<br>
+
+<img src="./src/assets/Mockup - CounterApp.png" alt="Contador Imagem Mockup" width="100%">
 
 ---
 
